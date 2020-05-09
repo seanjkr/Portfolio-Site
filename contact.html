@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sean's Portfolio- Contact</title>
+  <link rel="shortcut icon" href="img/temp-logo.png">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+</head>
+<body>
+  <header class="page-header">
+    <img src="img/temp-logo.png" alt="Sean Kopp-Reddy Logo" class="page-header__item">
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="contact">
+    <h1>Contact</h1>
+    <div>
+      <p>
+        Sean Kopp-Reddy <br>
+        1432 Monroe St NE<br>
+        Minneapolis, MN USA 55413 <br>
+        Tel <a href="tel:+16514723938"> +1 651-472-3938</a><br>
+        Email <a href="mailto:seankoppreddy@gmail.com">seankoppreddy@gmail.com</a><br>
+      </p>
+      <a href="mailto:seankoppreddy@gmail.com">Contact Me</a>
+    </div> <br>
+    <form action="contact.html" method="post" id="contact-form">
+      <label class="standard-label" for="contact-email">E-mail*:</label>
+      <input type="email" id="contact-email" required>
+
+      <label class="standard-label" for="contact-tel">Telephone: </label>
+      <input type="tel" id="contact-tel">
+
+      <label class="standard-label" for="contact-textarea">Message*:</label>
+      <textarea maxlength="240" id="contact-textarea" required></textarea>
+      <input type="submit" value="send message">
+    </form>
+  </div>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="http://github.com" target="_blank"><img src="img/github_icon.svg" alt="Github"></a>
+      <a href="http://twitter.com" target="_blank"><img src="img/twitter_icon.svg" alt="Twitter"></a>
+      <a href="http://linkedin.com" target="_blank"><img src="img/linkedin_icon.svg" alt="Linkedin"></a>
+    </div>
+  </footer>
+<script src="js/tota11y.min.js"></script>
+</body>
+</html>
