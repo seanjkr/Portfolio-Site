@@ -371,13 +371,3 @@ button:focus {
     padding-top: 2px;
   }
 }
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .ie10up {
-    #project5,
-    #project6,
-    #project8 {
-      display: none;
-    }
-  }
-}
