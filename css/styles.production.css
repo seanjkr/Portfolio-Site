@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   background-image: url("./../img/amsterdam.svg"), url("./../img/background.jpg");
-  background-position: left bottom, center;
+  background-position: left bottom, top left;
   background-repeat: no-repeat, repeat;
   animation: backgroundScroll 60s linear infinite;
 }
@@ -32,8 +32,8 @@ body {
 }
 
 @keyframes backgroundScroll {
-  from { background-position: 0 100%, 100% 0; }
-  to { background-position: 100% 100%, 100% 0; }
+  from { background-position: 0 100%, 0 0; }
+  to { background-position: 100% 100%, 0 0; }
 }
 
 @keyframes backgroundScroll2 {
@@ -188,7 +188,42 @@ ul {
   cursor: pointer;
   padding: 1%;
   border: 4px solid black;
+  background-color: white;
   transition: border-width 0.2s linear;
+}
+
+.grid__item p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.grid__item:nth-last-child(3) p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+}
+
+#project5 {
+  float: left;
+  width: 35%;
+  padding: 4% 2% 0%;
+}
+
+#project6 {
+  width: 90%;
+  display: block;
+  padding: 10% 0% 0% 15%;
+}
+
+#project8 {
+  float: right;
+  width: 35%;
+  padding: 4% 1%;
 }
 
 #backtotop {
