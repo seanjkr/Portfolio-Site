@@ -365,3 +365,16 @@ button:focus {
     -webkit-box-orient: vertical;
   }
 }
+
+@media all and (max-width: 1200px) {
+  #contact-email,
+  #contact-tel,
+  #contact-textarea,
+  #contact-submit {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 2px;
+  }
+}

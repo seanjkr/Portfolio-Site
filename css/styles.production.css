@@ -248,7 +248,7 @@ ul {
 }
 
 .contact {
-  width: 50%;
+  width: 40%;
   margin: 5% auto;
   padding: 2%;
   position: static;
@@ -355,5 +355,18 @@ button:focus {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  #contact-email,
+  #contact-tel,
+  #contact-textarea,
+  #contact-submit {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 2px;
   }
 }
