@@ -161,6 +161,7 @@ ul {
   color: white;
   text-align: center;
   padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .grid {
@@ -335,7 +336,7 @@ button:focus {
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 30px;
   }
 
   .profile__portait {
